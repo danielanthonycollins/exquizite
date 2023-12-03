@@ -1,39 +1,150 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Exquizite**
 
-Welcome,
+[View the live project here](###)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Website shown on multiple devices](###)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## **Site Overview**
 
-## Codeanywhere Reminders
+To be completed.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## **Table of contents**
 
-`python3 -m http.server`
+- [**Exquizite**](#exquizite)
+  - [**Site Overview**](#site-overview)
+  - [**Table of contents**](#table-of-contents)
+  - [**Planning stage**](#planning-stage)
+    - [**Target Audiences**](#target-audiences)
+    - [**User Stories**](#user-stories)
+    - [**Site Aims**](#site-aims)
+    - [**Wireframes**](#wireframes)
+    - [**Color Scheme**](#color-scheme)
+  - [**Typography**](#typography)
+  - [**Features**](#features)
+  - [**Future Enhancements**](#future-enhancements)
+  - [**Testing Phase**](#testing-phase)
+    - [**Responsiveness**](#responsiveness)
+    - [**Functionality**](#functionality)
+    - [**Validators**](#validators)
+    - [**Lighthouse**](#lighthouse)
+    - [**Testing user stories**](#testing-user-stories)
+  - [**Bugs**](#bugs)
+  - [**Deployment**](#deployment)
+  - [**Tech**](#tech)
+  - [**Credits**](#credits)
+    - [**Honourable mentions**](#honourable-mentions)
+    - [**Content**](#content)
+    - [**Media**](#media)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## **Planning stage**
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### **Target Audiences**
 
-`http_server`
+- Casual users looking for a quiz game to pass the time.
+- Quiz enthusiasts and/or teams looking to test their knowledge before a competition.
+- Casual users looking for a fun game to entertain guests at a party or gathering.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### **User Stories**
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- As a user, I want the site to be easy to use.
+- As a user, I want to the site to be responsive.
+- As a user, I want to select the difficulty level of the quiz questions.
+- As a user, I want to choose the topic for the quiz questions
+- As a user, I want to answer different questions each time I take the quiz, even if I choose the same topic, difficulty and number of questions.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### **Site Aims**
 
-To log into the Heroku toolbelt CLI:
+- To offer a simple, yet interesting quiz game that can be played multiple times without repetition of questions to keep the users engaged.
+- To offer multiple topics and difficulty levels to create the largest possible target audience. The quiz should be suitable for everyone.
+- To keep the user informed on their progress as they advance through the quiz.
+- To display a leaderboard so users can compare their results with others, hopefully encouraging them to keep playing or come back and try again at a later time.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### **Wireframes**
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+To be completed
+
+### **Color Scheme**
+
+To be completed
+
+## **Typography**
+
+To be completed
+
+## **Features**
+
+To be completed
+
+## **Future Enhancements**
+
+To be completed
+
+## **Testing Phase**
+
+### **Responsiveness**
+
+To be completed
+
+### **Functionality**
+
+To be completed
+
+### **Validators**
+
+To be completed
+
+### **Lighthouse**
+
+To be completed
+
+### **Testing user stories**
+
+**User story 1**: To be completed
+
+**Achieved?**: To be completed
+
+## **Bugs**
+
+I found the following bugs during the development process:
+
+
 
 ---
 
-Happy coding!
+## **Deployment**
+
+I deployed the page on GitHub pages via the following procedure:
+
+1. From the project's [repository](https://github.com/danielanthonycollins/exquizite), go to the **Settings** tab.
+2. From the left-hand menu, select the **Pages** tab.
+3. Under the **Source** section, select **Deploy from a branch** and then the **Main** branch from the drop-down menu and click **Save**.
+4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
+
+You can find the live site [here](###)
+
+---
+
+## **Tech**
+
+- HTML5
+- CSS3
+- JavaScript
+- [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction)
+- [Google Fonts](https://fonts.google.com/)
+- [Fontawesome](https://fontawesome.com/)
+
+## **Credits**
+
+To be completed
+
+### **Honourable mentions**
+
+Special thanks to my mentor Richard Wells for his excellent advice and support throughout this project.
+
+### **Content**
+
+To be completed
+
+### **Media**
+
+To be completed
