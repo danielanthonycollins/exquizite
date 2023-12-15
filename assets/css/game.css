@@ -34,6 +34,10 @@
     background-color: #dc3545;
 }
 
+.hide {
+    display: none;
+}
+
 /* HUD */
 
 #hud {
