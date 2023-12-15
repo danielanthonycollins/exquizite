@@ -48,14 +48,13 @@ To be completed.
 
 - As a user, I want the site to be easy to use.
 - As a user, I want to the site to be responsive.
-- As a user, I want to select the difficulty level of the quiz questions.
 - As a user, I want to choose the topic for the quiz questions
-- As a user, I want to answer different questions each time I take the quiz, even if I choose the same topic, difficulty and number of questions.
+- As a user, I want to answer different questions each time I take the quiz, even if I choose the same topic.
 
 ### **Site Aims**
 
 - To offer a simple, yet interesting quiz game that can be played multiple times without repetition of questions to keep the users engaged.
-- To offer multiple topics and difficulty levels to create the largest possible target audience. The quiz should be suitable for everyone.
+- To offer multiple topics, creating the largest possible target audience.
 - To keep the user informed on their progress as they advance through the quiz.
 - To display a leaderboard so users can compare their results with others, hopefully encouraging them to keep playing or come back and try again at a later time.
 
@@ -129,9 +128,6 @@ You can find the live site [here](###)
 - HTML5
 - CSS3
 - JavaScript
-- [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction)
-- [Google Fonts](https://fonts.google.com/)
-- [Fontawesome](https://fontawesome.com/)
 
 ## **Credits**
 
