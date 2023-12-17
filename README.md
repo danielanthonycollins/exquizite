@@ -124,7 +124,10 @@ To be completed
 
 I found the following bugs during the development process:
 
-
+- GitHub Pages
+  - Problem: When the project was deployed to GitHub Pages and the start quiz button is clicked, a 404 page appeared saying the link was unknown.
+  - Cause: After troubleshooting the issue on slack, I found that GitHub pages does not like absolute flle paths, which were included in my code to send the user to the relevant page based on the button clicked or action taken.
+  - Solution: All file paths in all documents were changed to relative by removing the first forward slash.
 
 ---
 
@@ -149,7 +152,7 @@ You can find the live site [here](https://danielanthonycollins.github.io/exquizi
 
 ## **Credits**
 
-To be completed
+The following people, websites and learning materials aided me with the creation of this project.
 
 ### **Honourable mentions**
 
@@ -157,8 +160,8 @@ Special thanks to my mentor Richard Wells for his excellent advice and support t
 
 ### **Content**
 
-To be completed
+I used the [James Q Quick](https://youtu.be/rFWbAj40JrQ?si=lEENGptMdV2F396F) Youtube tutorial to create the base for my quiz.
 
 ### **Media**
 
-To be completed
+The Exquizite logo was created and designed thanks to [logo.com](https://logo.com/), the free logo generator.
