@@ -60,23 +60,23 @@ Exquizite is an online quiz game featuring 10 multiple choice questions in the u
 
 ### **Wireframes**
 
-Home Page
+Home Page (Desktop, Tablet & Mobile)
 
 ![Home Page Wireframe](documentation/wireframes/homedesktopwireframe.png)
 
-Game Page (Select Topic)
+Game Page - Select Topic (Desktop, Tablet & Mobile
 
 ![Game Page - Topic Wireframe](documentation/wireframes/topicdesktopwireframe.png)
 
-Game Page (Questions)
+Game Page - Questions (Desktop view shown, on tablet and mobile layout is to be the same although everything should wrap to the next line where required)
 
 ![Game Page - Questions Wireframe](documentation/wireframes/questiondesktopwireframe.png)
 
-End Page with Final Score
+End Page with Final Score (Desktop, Tablet & Mobile)
 
 ![End Page with final score wireframe](documentation/wireframes/finalscoredesktopwireframe.png)
 
-High Scores Page
+High Scores Page (Desktop, Tablet & Mobile)
 
 ![High scores page wireframe](documentation/wireframes/highscoresdesktopwireframe.png)
 
