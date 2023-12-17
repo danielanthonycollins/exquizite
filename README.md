@@ -82,7 +82,7 @@ High Scores Page (Desktop, Tablet & Mobile)
 
 ### **Color Scheme**
 
-I decided to use a navy background with lighter blue buttons and white text to jump out off the page. I think navy is a very modern, inviting color and a lot of apps and websites seem to be moving towards a darker theme with bright wording and features, rather than the other way around.
+I decided to use a navy background with white text against the navy to jump out off the page, along with some brown features to match the icon in the logo. I think navy is a very modern, inviting color and a lot of apps and websites seem to be moving towards a darker theme with bright wording and features, rather than the other way around.
 
 ## **Typography**
 
