@@ -60,7 +60,25 @@ Exquizite is an online quiz game featuring 10 multiple choice questions in the u
 
 ### **Wireframes**
 
-To be completed
+Home Page
+
+![Home Page Wireframe](documentation/wireframes/homedesktopwireframe.png)
+
+Game Page (Select Topic)
+
+![Game Page - Topic Wireframe](documentation/wireframes/topicdesktopwireframe.png)
+
+Game Page (Questions)
+
+![Game Page - Questions Wireframe](documentation/wireframes/questiondesktopwireframe.png)
+
+End Page with Final Score
+
+![End Page with final score wireframe](documentation/wireframes/finalscoredesktopwireframe.png)
+
+High Scores Page
+
+![High scores page wireframe](documentation/wireframes/highscoresdesktopwireframe.png)
 
 ### **Color Scheme**
 
