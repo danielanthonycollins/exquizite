@@ -6,7 +6,7 @@
 
 ## **Site Overview**
 
-To be completed.
+Exquizite is an online quiz game featuring 10 multiple choice questions in the users topic of choice. The target audience is quiz enthusiasts, quiz teams looking to practice before an event or anyone looking to pass the time with a fun game.
 
 ## **Table of contents**
 
