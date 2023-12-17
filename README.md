@@ -1,6 +1,6 @@
 # **Exquizite**
 
-[View the live project here](###)
+[View the live project here](https://danielanthonycollins.github.io/exquizite/)
 
 ![Website shown on multiple devices](###)
 
@@ -137,7 +137,7 @@ I deployed the page on GitHub pages via the following procedure:
 3. Under the **Source** section, select **Deploy from a branch** and then the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
-You can find the live site [here](###)
+You can find the live site [here](https://danielanthonycollins.github.io/exquizite/)
 
 ---
 
