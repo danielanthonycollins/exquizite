@@ -118,9 +118,21 @@ To be completed
 
 ### **Testing user stories**
 
-**User story 1**: To be completed
+**User story 1**: As a user, I want the site to be easy to use.
 
-**Achieved?**: To be completed
+**Achieved?**: Yes. The quiz includes features and instructions which are clear to the user as they progress through the quiz and allows them to start and finish successfully.
+
+**User story 2**: As a user, I want to the site to be responsive.
+
+**Achieved?**: Yes. The quiz has been designed and tested to be responsive on all devices.
+
+**User story 3**: As a user, I want to choose the topic for the quiz questions
+
+**Achieved?**: Yes. The quiz prompts the user to select from a variety of topics before they begin.
+
+**User story 4**: As a user, I want to answer different questions each time I take the quiz, even if I choose the same topic.
+
+**Achieved?**: Yes. The quiz provides different questions for each game, even if the user plays multiple times choosing the same topic as they do so.
 
 ## **Bugs**
 
