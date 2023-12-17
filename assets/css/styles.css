@@ -37,7 +37,8 @@ h1>span {
     font-weight: 500;
 }
 
-h2 {
+h2,
+p {
     font-size: 3rem;
     margin-bottom: 4rem;
     font-weight: 700;
