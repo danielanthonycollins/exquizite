@@ -86,7 +86,7 @@ To be completed
 
 ## **Typography**
 
-To be completed
+I decided to import the Urbanist font from Google Fonts as I felt that it worked with the overall theme of the quiz. It looks like a modern, easy to read font.
 
 ## **Features**
 
@@ -94,7 +94,9 @@ To be completed
 
 ## **Future Enhancements**
 
-To be completed
+- The high scores leaderboard could be improved in the future to store scores on a server rather than on local storage, which will open the quiz up to more competition in future.
+- More quiz options could be introduced in future, such as difficulty and number of questions to further customize the quiz to the users preferences.
+- Functionality could be introduced in future to create levels which the user can progress through. To pass to the next level they would have to reach a certain quiz score, and each level is harded than the last.
 
 ## **Testing Phase**
 
