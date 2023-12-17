@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500;700&display=swap');
+
 :root {
     background-color: #2a3e6b;
     font-size: 62.5%;
@@ -5,7 +7,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Urbanist', Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     color: rgb(226, 226, 226);
