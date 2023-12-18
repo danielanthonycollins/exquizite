@@ -21,7 +21,6 @@ function getCategories() {
         .then((res) => res.json())
         .then((data) => data.trivia_categories)
         .then((categories) => {
-            console.log(categories);
 
             categories.forEach((category) => {
                 const option = document.createElement('option');
