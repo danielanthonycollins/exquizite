@@ -4,6 +4,7 @@ const progressText = document.getElementById('progressText');
 const scoreText = document.getElementById('score');
 const progressBarFull = document.getElementById('progressBarFull');
 const categorySelect = document.getElementById('category');
+const difficultySelect = document.getElementById('difficulty');
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 10;
 let currentQuestion = {};
@@ -11,6 +12,7 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
+let difficulty;
 
 let questions = [];
 
@@ -34,7 +36,7 @@ getCategories();
 
 function getQuestions(category) {
     fetch(
-        `https://opentdb.com/api.php?amount=10&category=${category}&difficulty=medium&type=multiple`
+        `https://opentdb.com/api.php?amount=10&category=${category}&difficulty=${difficulty}&type=multiple`
     )
         .then((res) => {
             return res.json();
@@ -62,6 +64,10 @@ document
         const selectedCategoryId = document.getElementById('category').value;
         getQuestions(selectedCategoryId);
     });
+
+difficultySelect.addEventListener('change', function () {
+    difficulty = difficultySelect.value;
+});
 
 function startGame() {
     questionCounter = 0;
