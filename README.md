@@ -86,7 +86,7 @@ I decided to use a navy background with white text against the navy to jump out 
 
 ## **Typography**
 
-I decided to import the Urbanist font from Google Fonts as I felt that it worked with the overall theme of the quiz. It looks like a modern, easy to read font.
+I decided to use the Arial font as it's a simple and clear to read font which worked well with all of the features and also works with the font of the logo.
 
 ## **Features**
 
