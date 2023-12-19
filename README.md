@@ -6,7 +6,7 @@
 
 ## **Site Overview**
 
-Exquizite is an online quiz game featuring 10 multiple choice questions in the users topic of choice. The target audience is quiz enthusiasts, quiz teams looking to practice before an event or anyone looking to pass the time with a fun game.
+Exquizite is an online quiz game featuring 10 multiple choice questions in the users topic and difficulty of choice. The target audience is quiz enthusiasts, quiz teams looking to practice before an event or anyone looking to pass the time with a fun game.
 
 ## **Table of contents**
 
@@ -95,8 +95,8 @@ To be completed
 ## **Future Enhancements**
 
 - The high scores leaderboard could be improved in the future to store scores on a server rather than on local storage, which will open the quiz up to more competition in future.
-- More quiz options could be introduced in future, such as difficulty and number of questions to further customize the quiz to the users preferences.
-- Functionality could be introduced in future to create levels which the user can progress through. To pass to the next level they would have to reach a certain quiz score, and each level is harded than the last.
+- An additional dropdown menu could be added to the game page allowing the user to choose the number of questions they want to answer, allowing them to customise the quiz further.
+- Functionality could be introduced in future to create levels which the user can progress through. To pass to the next level they would have to reach a certain quiz score, and each level is more difficult than the last.
 
 ## **Testing Phase**
 
@@ -143,6 +143,11 @@ I found the following bugs during the development process:
   - Cause: After troubleshooting the issue on slack, I found that GitHub pages does not like absolute flle paths, which were included in my code to send the user to the relevant page based on the button clicked or action taken.
   - Solution: All file paths in all documents were changed to relative by removing the first forward slash.
 
+- Easy difficulty issue
+  - Problem: 
+  - Cause: 
+  - Solution: 
+
 ---
 
 ## **Deployment**
@@ -175,6 +180,8 @@ Special thanks to my mentor Richard Wells for his excellent advice and support t
 ### **Content**
 
 I used the [James Q Quick](https://youtu.be/rFWbAj40JrQ?si=lEENGptMdV2F396F) Youtube tutorial to create the base for my quiz.
+
+I used the following [w3schools](https://www.w3schools.com/howto/howto_css_loader.asp) page to include the loading spinner in my project.
 
 ### **Media**
 
