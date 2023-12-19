@@ -16,6 +16,11 @@ username.addEventListener("keyup", () => {
 saveHighScore = (e) => {
     e.preventDefault();
 
+    if (!username.value) {
+        saveScoreBtn.disabled = true;
+        return;
+    }
+
     const score = {
         score: mostRecentScore,
         name: username.value,

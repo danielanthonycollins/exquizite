@@ -13,7 +13,6 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 let difficulty;
-
 let questions = [];
 
 function getCategories() {
@@ -64,9 +63,7 @@ document
         getQuestions(selectedCategoryId);
     });
 
-difficultySelect.addEventListener('change', function () {
-    difficulty = difficultySelect.value;
-});
+difficulty = difficultySelect.value;
 
 function startGame() {
     questionCounter = 0;
