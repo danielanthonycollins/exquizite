@@ -20,7 +20,6 @@ saveHighScore = (e) => {
         saveScoreBtn.disabled = true;
         return;
     }
-
     const score = {
         score: mostRecentScore,
         name: username.value,
