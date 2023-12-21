@@ -5,15 +5,23 @@ const mostRecentScore = localStorage.getItem("mostRecentScore");
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 const MAX_HIGH_SCORES = 5;
 
+/**
+ * Update text content of finalScore to the value stored in mostRecentScore
+*/
+
 finalScore.innerText = mostRecentScore;
 
 /**
- * 
+ * Disables the save score button until a name is entered
 */
 
 username.addEventListener("keyup", () => {
     saveScoreBtn.disabled = !username.value;
 });
+
+/**
+ * Get the username and score, then update the high scores list
+*/
 
 saveHighScore = (e) => {
     e.preventDefault();

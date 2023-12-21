@@ -20,6 +20,12 @@ let availableQuestions = [];
 let difficulty;
 let questions = [];
 
+/**
+ * Fetches categories from API while loading spinner shows.
+ * Once categories are fetched successfully, loading spinner is removed.
+ * Categories and difficulty select options then appear.
+*/
+
 function getCategories() {
     fetch('https://opentdb.com/api_category.php')
         .then((res) => res.json())
@@ -36,7 +42,6 @@ function getCategories() {
                 categorySelect.appendChild(option);
             });
             loader.classList.add('hide');
-            gameArea.classList.remove('hide');
             categoryContainer.classList.remove('hide');
         })
         .catch(() => {
@@ -46,6 +51,10 @@ function getCategories() {
 }
 
 getCategories();
+
+/**
+ * Gets the questions based on the category and difficulty chosen, then starts the game.
+*/
 
 function getQuestions(category) {
     fetch(
@@ -68,16 +77,22 @@ function getQuestions(category) {
         });
 }
 
+/**
+ * Once categoryForm is submitted, get the category ID and pass it to the getQuestions function
+*/
 
 categoryForm.addEventListener('submit', function (event) {
         event.preventDefault();
 
         const selectedCategoryId = categorySelect.value;
         getQuestions(selectedCategoryId);
-        console.log(selectedCategoryId);
     });
 
 difficulty = difficultySelect.value;
+
+/**
+ * Starts the game
+*/
 
 function startGame() {
     questionCounter = 0;
@@ -85,6 +100,12 @@ function startGame() {
     availableQuestions = questions;
     getNewQuestion();
 }
+
+/**
+ * If there are no more questions or max questions is reached, the quiz is over and score is set.
+ * Otherwise, move to the next question and update the progressBar.
+ * Answers are populated in a random order, so they are not always in the same box when question is repeated.
+*/
 
 function getNewQuestion() {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
@@ -111,10 +132,21 @@ function getNewQuestion() {
     acceptingAnswers = true;
 }
 
+/**
+ * Informs the user which question they are on.
+ * Also fills the progressBar as the user progresses through the quiz.
+*/
+
 function setProgressBar() {
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 }
+
+/**
+ * Handles answer choices, informs user if the choice is correct or incorrect
+ * Score is incremented when answer is correct
+ * Moves to next question
+*/
 
 choices.forEach((choice) => {
     choice.addEventListener('click', (event) => {
@@ -143,10 +175,18 @@ choices.forEach((choice) => {
     });
 });
 
+/**
+ * Increments the users score 
+*/
+
 function incrementScore(num) {
     score += num;
     scoreText.innerText = score;
 }
+
+/**
+ * Allows answers to be randomised each time a question appears
+*/
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i >= 0; i--) {
