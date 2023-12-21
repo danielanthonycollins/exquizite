@@ -191,6 +191,8 @@ High Scores: This should show all of the high scores recorded in local storage. 
 
 404 Error: If any attempt is made to navigate to a page on the website which doesn't exist, the 404.html page should be shown automatically. After entering a page name at the end of the websites URL which doesn't exist, the 404 page appeared so this test returned the expected result.
 
+Spam Clicks: Every page was tested with spam clicks, by clicking as many buttons, links and features as possible in a very short period, in an effort to try and break the website, but this returned no bugs or errors.
+
 ### **Validators**
 
 To be completed
