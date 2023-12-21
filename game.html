@@ -12,6 +12,7 @@
   </head>
 
   <body>
+    <!-- Category and difficult select section -->
     <div class="container hide" id="categorySelect">
       <form id="categoryForm">
         <h1 class="text-center">Choose a topic & difficulty</h1>
@@ -24,6 +25,7 @@
         <button class="btn" type="submit">Submit</button>
       </form>
     </div>
+    <!-- Game / question area -->
     <div class="container hide" id="gameArea">
       <div id="game" class="justify-center flex-column">
         <div id="hud">
@@ -57,9 +59,11 @@
         </div>
       </div>
     </div>
+    <!-- Loading spinner -->
     <div class="container">
       <div class="loader" id="loader"></div> 
     </div>
+    <!-- Error message if API fails to load -->
     <div id="error" class="container hide text-center">
       <p>Sorry! We were unable to load the quiz. Please try again later.</p>
     </div>
