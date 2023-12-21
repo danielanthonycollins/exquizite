@@ -231,7 +231,45 @@ game.css CSS Validator
 
 ### **Lighthouse**
 
-To be completed
+index.html Desktop Lighthouse results
+
+![index.html Desktop Lighthouse results](documentation/docimg/indexdesktoplh.png)
+
+index.html Mobile Lighthouse results
+
+![index.html Mobile Lighthouse results](documentation/docimg/indexmobilelh.png)
+
+highscores.html Desktop Lighthouse results
+
+![highscores.html Desktop Lighthouse results](documentation/docimg/highscoresdesktoplh.png)
+
+highscores.html Mobile Lighthouse results
+
+![highscores.html Mobile Lighthouse results](documentation/docimg/highscoresmobilelh.png)
+
+game.html Desktop Lighthouse results
+
+![game.html Desktop Lighthouse results](documentation/docimg/gamedesktoplh.png)
+
+game.html Mobile Lighthouse results
+
+![game.html Mobile Lighthouse results](documentation/docimg/gamemobilelh.png)
+
+end.html Desktop Lighthouse results
+
+![end.html Desktop Lighthouse results](documentation/docimg/enddesktoplh.png)
+
+end.html Mobile Lighthouse results
+
+![end.html Mobile Lighthouse results](documentation/docimg/endmobilelh.png)
+
+404.html Desktop Lighthouse results
+
+![404.html Desktop Lighthouse results](documentation/docimg/error404desktoplh.png)
+
+404.html Mobile Lighthouse results
+
+![404.html Mobile Lighthouse results](documentation/docimg/error404mobilelh.png)
 
 ### **Testing user stories**
 
@@ -307,4 +345,4 @@ I used the following [w3schools](https://www.w3schools.com/howto/howto_css_loade
 
 ### **Media**
 
-The Exquizite logo was created and designed thanks to [logo.com](https://logo.com/), the free logo generator.# **Exquizite**
+The Exquizite logo was created and designed thanks to [logo.com](https://logo.com/), the free logo generator.
