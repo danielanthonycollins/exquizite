@@ -229,6 +229,18 @@ game.css CSS Validator
 
 ![game.css CSS Validator](documentation/docimg/gamecsscheck.png)
 
+highscores.js JSHINT results
+
+![highscores.js JSHINT results](documentation/docimg/highscoresjshint.png)
+
+game.js JSHINT results (the one warning that does show, I discussed with my mentor and we both agreed that the code is working as expected and there are no issues with the expression)
+
+![game.js JSHINT results](documentation/docimg/gamejshint.png)
+
+end.js JSHINT results
+
+![end.js JSHINT results](documentation/docimg/endjshint.png)
+
 ### **Lighthouse**
 
 index.html Desktop Lighthouse results
