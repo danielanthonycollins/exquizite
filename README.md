@@ -102,7 +102,7 @@ Highscores
 
 ![Highscores preview - with scores showing](documentation/docimg/hswithscores.png)
 
-- The highscores page features a list of the highest scores recorded to date along with the relevant users name, sorted from the highest at the top to the lowest at the bottom.
+- The highscores page features a list of the top five highest scores recorded to date along with the relevant users name, sorted from the highest at the top to the lowest at the bottom.
 - If no highscores have been recorded, the message stating that no hire scores are present is shown.
 
 Choosing the topic and difficulty
