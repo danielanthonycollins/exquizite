@@ -21,6 +21,11 @@ Exquizite is an online quiz game featuring multiple choice questions in the user
     - [**Color Scheme**](#color-scheme)
   - [**Typography**](#typography)
   - [**Features**](#features)
+    - [Home Page:](#home-page)
+    - [Highscores:](#highscores)
+    - [Choosing the topic and difficulty](#choosing-the-topic-and-difficulty)
+    - [Quiz area](#quiz-area)
+    - [End page](#end-page)
   - [**Future Enhancements**](#future-enhancements)
   - [**Testing Phase**](#testing-phase)
     - [**Responsiveness**](#responsiveness)
@@ -90,7 +95,50 @@ I decided to use the Arial font as it's a simple and clear to read font which wo
 
 ## **Features**
 
-To be completed
+### Home Page:
+
+![Home page preview](documentation/docimg/exquizitehomepreview.png)
+
+- The user is greeted with a simple starting page which provides two clear options, to play the quiz or view the high scores.
+
+### Highscores:
+
+![Highscores preview - no scores showing](documentation/docimg/hsnoscores.png)
+
+![Highscores preview - with scores showing](documentation/docimg/hswithscores.png)
+
+- The highscores page features a list of the highest scores recorded to date along with the relevant users name, sorted from the highest at the top to the lowest at the bottom.
+- If no highscores have been recorded, the message stating that no hire scores are present is shown.
+
+### Choosing the topic and difficulty
+
+![Topic and difficulty select](documentation/docimg/categorydifficulty.png)
+
+- Once the user starts a new quiz, they are presented with two dropdown menus to choose the quiz topic and difficulty. Once they click the submit button, the quiz begins showing them the first of six questions based on what they have chosen.
+
+### Quiz area
+
+![Quiz area start](documentation/docimg/quizareastart.png)
+
+![Quiz area with correct choice](documentation/docimg/quizareacorrect2.png)
+
+![Quiz area with incorrect choice](documentation/docimg/quizareaincorrect2.png)
+
+- The quiz area itself has a few features, including:
+  - A progress bar which automatically fills up proportionately based on the question number the user is currently on. This keeps the user informed as to how far into the quiz they currently are, plus when it will end.
+  - A score feature, which shows the users current score based on the number of questions they have got right so far.
+  - The question itself, which is different for each question asked by the quiz.
+  - Four multiple choice answers for the user to choose from. If they select the correct answer, the box highlights green to indicate it is correct. If they select one of the three incorrect answers, the box highlights red to indicate an incorrect choice. Once the user chooses an answer and they receive their feedback, the quiz automatically moves onto the next question until they reach the end, at which point they are directed to the end page.
+
+### End page
+
+![End page](documentation/docimg/endpage.png)
+
+- The end page has a few features:
+  - Firstly, the users final score is shown at the top to let them know how they did.
+  - They are then given the opportunity to enter their name and save their score, which enters their result along with their name into the highscores. The save score button is disabled until they enter their name, the user cannot submit with an empty name.
+  - There is a play again button which restarts the quiz if they wish to play again.
+  - There is also a go home button which takes the user back to the home page.
 
 ## **Future Enhancements**
 
