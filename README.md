@@ -217,6 +217,18 @@ end.html HTML Validator
 
 ![404.html HTML Validator](documentation/docimg/error404htmlcheck.png)
 
+styles.css CSS Validator
+
+![styles.css CSS Validator](documentation/docimg/stylescsscheck.png)
+
+highscores.css CSS Validator
+
+![highscores.css CSS Validator](documentation/docimg/highscorescsscheck.png)
+
+game.css CSS Validator
+
+![game.css CSS Validator](documentation/docimg/gamecsscheck.png)
+
 ### **Lighthouse**
 
 To be completed
