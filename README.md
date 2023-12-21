@@ -1,4 +1,4 @@
-# **Exquizite**
+## **Exquizite**
 
 [View the live project here](https://danielanthonycollins.github.io/exquizite/)
 
@@ -11,30 +11,30 @@ Exquizite is an online quiz game featuring multiple choice questions in the user
 ## **Table of contents**
 
 - [**Exquizite**](#exquizite)
-  - [**Site Overview**](#site-overview)
-  - [**Table of contents**](#table-of-contents)
-  - [**Planning stage**](#planning-stage)
-    - [**Target Audiences**](#target-audiences)
-    - [**User Stories**](#user-stories)
-    - [**Site Aims**](#site-aims)
-    - [**Wireframes**](#wireframes)
-    - [**Color Scheme**](#color-scheme)
-  - [**Typography**](#typography)
-  - [**Features**](#features)
-  - [**Future Enhancements**](#future-enhancements)
-  - [**Testing Phase**](#testing-phase)
-    - [**Responsiveness**](#responsiveness)
-    - [**Functionality**](#functionality)
-    - [**Validators**](#validators)
-    - [**Lighthouse**](#lighthouse)
-    - [**Testing user stories**](#testing-user-stories)
-  - [**Bugs**](#bugs)
-  - [**Deployment**](#deployment)
-  - [**Tech**](#tech)
-  - [**Credits**](#credits)
-    - [**Honourable mentions**](#honourable-mentions)
-    - [**Content**](#content)
-    - [**Media**](#media)
+- [**Site Overview**](#site-overview)
+- [**Table of contents**](#table-of-contents)
+- [**Planning stage**](#planning-stage)
+  - [**Target Audiences**](#target-audiences)
+  - [**User Stories**](#user-stories)
+  - [**Site Aims**](#site-aims)
+  - [**Wireframes**](#wireframes)
+  - [**Color Scheme**](#color-scheme)
+- [**Typography**](#typography)
+- [**Features**](#features)
+- [**Future Enhancements**](#future-enhancements)
+- [**Testing Phase**](#testing-phase)
+  - [**Responsiveness**](#responsiveness)
+  - [**Functionality**](#functionality)
+  - [**Validators**](#validators)
+  - [**Lighthouse**](#lighthouse)
+  - [**Testing user stories**](#testing-user-stories)
+- [**Bugs**](#bugs)
+- [**Deployment**](#deployment)
+- [**Tech**](#tech)
+- [**Credits**](#credits)
+  - [**Honourable mentions**](#honourable-mentions)
+  - [**Content**](#content)
+  - [**Media**](#media)
 
 ## **Planning stage**
 
@@ -151,7 +151,33 @@ End page
 
 ### **Responsiveness**
 
-To be completed
+Responsiveness was checked and worked as intended with the following browsers and screen sizes:
+
+- Extra Large (27" Mac Desktop):
+
+  - Chrome (120.0.6099.109 Official Build x86_64)
+  - Safari (Version 17.2.1 19617.1.17.11.12)
+  - Firefox (Version 121.0 64-bit)
+
+- Large (15" MacBook Pro Laptop):
+
+  - Chrome (120.0.6099.109 Official Build x86_64)
+  - Firefox (121.0 64-bit)
+  - Safari (Version 17.2 17617.1.17.11.11, 17617)
+
+- Medium (10.9" iPad):
+
+  - Chrome
+  - Safari
+  - Firefox
+
+- Small (6" iPhone 13):
+
+  - Chrome (120.0.6099.119)
+  - Safari
+  - Firefox (120.4 36613)
+
+DevTools was also used to check the responsiveness at various screen sizes and devices from the list of devices available. All were fully responsive and caused no issues.
 
 ### **Functionality**
 
@@ -239,4 +265,4 @@ I used the following [w3schools](https://www.w3schools.com/howto/howto_css_loade
 
 ### **Media**
 
-The Exquizite logo was created and designed thanks to [logo.com](https://logo.com/), the free logo generator.
+The Exquizite logo was created and designed thanks to [logo.com](https://logo.com/), the free logo generator.# **Exquizite**
