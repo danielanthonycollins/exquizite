@@ -135,6 +135,12 @@ End page
   - There is a play again button which restarts the quiz if they wish to play again.
   - There is also a go home button which takes the user back to the home page.
 
+404 Error
+
+![404 error message](documentation/docimg/404error.png)
+
+- This page was put in place in case a page cannot be found, to stop the user from seeing the generic 404 page provided by the browser.
+
 ## **Future Enhancements**
 
 - The high scores leaderboard could be improved in the future to store scores on a server rather than on local storage, which will open the quiz up to more competition in future.
