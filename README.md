@@ -2,7 +2,7 @@
 
 [View the live project here](https://danielanthonycollins.github.io/exquizite/)
 
-![Website shown on multiple devices](###)
+![Website shown on multiple devices](documentation/docimg/exquizitedevicepreview.png)
 
 ## **Site Overview**
 
