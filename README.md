@@ -197,7 +197,25 @@ Spam Clicks: Every page was tested with spam clicks, by clicking as many buttons
 
 ### **Validators**
 
-To be completed
+index.html HTML Validator
+
+![index.html HTML Validator](documentation/docimg/homehtmlcheck.png)
+
+highscores.html HTML Validator
+
+![highscores.html HTML Validator](documentation/docimg/highscoreshtmlcheck.png)
+
+game.html HTML Validator
+
+![game.html HTML Validator](documentation/docimg/gamehtmlcheck.png)
+
+end.html HTML Validator
+
+![end.html HTML Validator](documentation/docimg/endhtmlcheck.png)
+
+404.html HTML Validator
+
+![404.html HTML Validator](documentation/docimg/error404htmlcheck.png)
 
 ### **Lighthouse**
 
