@@ -119,6 +119,10 @@ p {
     transform: none;
 }
 
+#error-home {
+    margin-top: 3rem;
+}
+
 /* Forms & Select */
 
 form {
