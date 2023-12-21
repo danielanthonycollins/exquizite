@@ -21,11 +21,6 @@ Exquizite is an online quiz game featuring multiple choice questions in the user
     - [**Color Scheme**](#color-scheme)
   - [**Typography**](#typography)
   - [**Features**](#features)
-    - [Home Page:](#home-page)
-    - [Highscores:](#highscores)
-    - [Choosing the topic and difficulty](#choosing-the-topic-and-difficulty)
-    - [Quiz area](#quiz-area)
-    - [End page](#end-page)
   - [**Future Enhancements**](#future-enhancements)
   - [**Testing Phase**](#testing-phase)
     - [**Responsiveness**](#responsiveness)
@@ -95,13 +90,13 @@ I decided to use the Arial font as it's a simple and clear to read font which wo
 
 ## **Features**
 
-### Home Page:
+Home Page
 
 ![Home page preview](documentation/docimg/exquizitehomepreview.png)
 
 - The user is greeted with a simple starting page which provides two clear options, to play the quiz or view the high scores.
 
-### Highscores:
+Highscores
 
 ![Highscores preview - no scores showing](documentation/docimg/hsnoscores.png)
 
@@ -110,13 +105,13 @@ I decided to use the Arial font as it's a simple and clear to read font which wo
 - The highscores page features a list of the highest scores recorded to date along with the relevant users name, sorted from the highest at the top to the lowest at the bottom.
 - If no highscores have been recorded, the message stating that no hire scores are present is shown.
 
-### Choosing the topic and difficulty
+Choosing the topic and difficulty
 
 ![Topic and difficulty select](documentation/docimg/categorydifficulty.png)
 
 - Once the user starts a new quiz, they are presented with two dropdown menus to choose the quiz topic and difficulty. Once they click the submit button, the quiz begins showing them the first of six questions based on what they have chosen.
 
-### Quiz area
+Quiz area
 
 ![Quiz area start](documentation/docimg/quizareastart.png)
 
@@ -130,7 +125,7 @@ I decided to use the Arial font as it's a simple and clear to read font which wo
   - The question itself, which is different for each question asked by the quiz.
   - Four multiple choice answers for the user to choose from. If they select the correct answer, the box highlights green to indicate it is correct. If they select one of the three incorrect answers, the box highlights red to indicate an incorrect choice. Once the user chooses an answer and they receive their feedback, the quiz automatically moves onto the next question until they reach the end, at which point they are directed to the end page.
 
-### End page
+End page
 
 ![End page](documentation/docimg/endpage.png)
 
@@ -192,9 +187,14 @@ I found the following bugs during the development process:
   - Solution: All file paths in all documents were changed to relative by removing the first forward slash.
 
 - Easy difficulty issue
-  - Problem: 
-  - Cause: 
-  - Solution: 
+  - Problem: When trying to start the quiz straight away without changing the default dropdown options for topic and difficulty choice, the quiz does not start, instead it jumps straight to the end page.
+  - Cause: The difficulty select was causing the issue, as the browser couldn't determine the actual value until it was physically selected by the user.
+  - Solution: The game.js file was updated to allow the browser to class 'easy' as a difficulty even if it wasn't physcially clicked/selected by the user. So if they try to start the quiz with the default options, the quiz still starts.
+
+- Loading spinner
+  - Problem: The loading spinner is showing at the bottom left corner of the game screen along with the topic and difficulty select boxes, when it should appear in the middle of the screen instead of the difficulty and topic select boxes until the API has fetched the relevant data.
+  - Cause: The hide class was not included in the game.html file for the categorySelect ID element.
+  - Solution: The hide class was added, plus the relevant code in game.js to remove the hide class once the categories are fetched correctly. This was done using the categoryContainer variable which is linked to the categorySelect ID element.
 
 ---
 
