@@ -155,8 +155,6 @@ choices.forEach((choice) => {
         acceptingAnswers = false;
         const selectedChoice = event.target;
 
-        console.log(currentQuestion);
-
         const classToApply =
             currentQuestion.correct_answer === event.target.innerHTML
                 ? 'correct'
