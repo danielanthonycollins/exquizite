@@ -239,7 +239,7 @@ game.js JSHINT results (the one warning that does show, I discussed with my ment
 
 end.js JSHINT results
 
-![end.js JSHINT results](documentation/docimg/endjshint.png)
+![end.js JSHINT results](documentation/docimg/endjshint2.png)
 
 ### **Lighthouse**
 
