@@ -179,6 +179,8 @@ Responsiveness was checked and worked as intended with the following browsers an
 
 DevTools was also used to check the responsiveness at various screen sizes and devices from the list of devices available. All were fully responsive and caused no issues.
 
+While checking for responsiveness, the quiz game was played and tested on each device and each browser to ensure there were no issues with the quiz itself for any particular one. 
+
 ### **Functionality**
 
 Home Page: When you enter the website, you're greeted with the logo and two buttons. Clicking the logo should simply refresh the page as it navigates to index.html, clicking start quiz should start the quiz and clicking high scores should navigate to the high scores page. All tests returned the expected results.
