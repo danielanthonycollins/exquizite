@@ -241,6 +241,26 @@ end.js JSHINT results
 
 ![end.js JSHINT results](documentation/docimg/endjshint2.png)
 
+index.html WAVE accessibility results
+
+![index.html WAVE accessibility results](documentation/docimg/wavehome.png)
+
+highscores.html WAVE accessibility results
+
+![highscores.html WAVE accessibility results](documentation/docimg/wavehighscores2.png)
+
+game.html WAVE accessibility results
+
+![game.html WAVE accessibility results](documentation/docimg/wavegame.png)
+
+end.html WAVE accessibility results
+
+![end.html WAVE accessibility results](documentation/docimg/waveend.png)
+
+404.html WAVE accessibility results
+
+![404.html WAVE accessibility results](documentation/docimg/waveerror404.png)
+
 ### **Lighthouse**
 
 index.html Desktop Lighthouse results
